@@ -26,8 +26,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -93,8 +93,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -151,8 +151,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -209,8 +209,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -285,8 +285,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -362,8 +362,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -420,8 +420,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
@@ -491,8 +491,8 @@ services:
     # 指定容器退出后的重启策略为始终重启
     restart: always
     # 指定容器的内核能力(capacity)分配
-    #cap_add:
-    # - ALL
+    cap_add:
+     - ALL
     # 配置容器内核参数
     #sysctls:
     #  - net.ipv4.tcp_ecn=1
