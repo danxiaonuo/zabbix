@@ -22,5 +22,7 @@ export PORT=$(docker exec -it mysql-server mysql -h 127.0.0.1 -u root -p'root_pw
 ```
 ```bash
 sed -i -e "s#ZBX_SERVER_HOST=.*#ZBX_SERVER_HOST=$HOST#g" -e "s#ZBX_SERVER_PORT=.*#ZBX_SERVER_PORT=$PORT#g" .env_vars/.env_web
+```
+```bash
 docker-compose up -d
 ```
