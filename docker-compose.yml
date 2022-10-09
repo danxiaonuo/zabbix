@@ -665,6 +665,7 @@ services:
       # 配置目录与文件
       - ./zbx_env/usr/local/zabbix/scripts:/usr/local/zabbix/scripts:rw,cached
       - ./zbx_env/usr/local/zabbix/zabbix_agentd.conf.d:/usr/local/zabbix/etc/zabbix_agentd.conf.d:rw,cached
+      - ./zbx_env/usr/local/zabbix/zabbix_agent2.d/plugins.d:/usr/local/zabbix/etc/zabbix_agent2.d/plugins.d:rw,cached
       - ./zbx_env/usr/local/zabbix/export:/usr/local/zabbix/export:rw,cached
       - ./zbx_env/usr/local/zabbix/modules:/usr/local/zabbix/modules:rw,cached
       - ./zbx_env/usr/local/zabbix/enc:/usr/local/zabbix/enc:rw,cached
