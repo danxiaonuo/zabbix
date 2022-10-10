@@ -4,7 +4,6 @@
 git clone --depth=1 https://github.com/danxiaonuo/zabbix.git
 cd zabbix
 docker-compose up -d
-chmod -R 777 zbx_env
 ```
 ## 镜像加速
 ```bash
